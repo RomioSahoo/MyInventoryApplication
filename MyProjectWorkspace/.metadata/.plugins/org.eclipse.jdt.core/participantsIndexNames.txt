@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+C:\Users\Romio\Documents\MyProjectWorkspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1340346938.index
+\MyInventory\src\main\java
+C:\Users\Romio\Documents\MyProjectWorkspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1947523809.index
+\MyInventory01\src\main\java
