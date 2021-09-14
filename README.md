@@ -1,11 +1,11 @@
 # MyInventoryApplication
 
-Functionality:
+## Functionality:
 User need to signup and then login with its credentials
 Allows user to add items on their shopping wishlist which later can be updated and deleted if that task fulfilled by user.
 
 
-Technologies used: 
+## Technologies used: 
 
 ->Spring Web MVC for the web layer
 
