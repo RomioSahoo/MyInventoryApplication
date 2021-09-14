@@ -1,7 +1,8 @@
 # MyInventoryApplication
 
 ## Functionality:
-User need to signup and then login with its credentials
+User need to signup and then login with its credentials.
+
 Allows user to add items on their shopping wishlist which later can be updated and deleted if that task fulfilled by user.
 
 
