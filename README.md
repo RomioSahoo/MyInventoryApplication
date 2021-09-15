@@ -7,7 +7,7 @@
 
 * And entry can be deleted if task fulfilled by user.
 
-* Encoded password stores in database using Spring Security's BCryptPassEncoder
+* Encoded password stores in database using Spring Security's BCryptPasswordEncoder
 
 
 ## Technologies used: 
