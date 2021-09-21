@@ -13,7 +13,7 @@ import org.springframework.test.annotation.Rollback;
 import com.inventory.model.Item;
 import com.inventory.model.User;
 import com.inventory.repo.ItemRepository;
-import com.inventory.repo.UserRepository;
+
 
 @DataJpaTest
 @AutoConfigureTestDatabase(replace = Replace.NONE)
