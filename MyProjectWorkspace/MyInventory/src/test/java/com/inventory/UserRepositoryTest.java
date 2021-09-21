@@ -19,9 +19,6 @@ import com.inventory.repo.UserRepository;
 @AutoConfigureTestDatabase(replace = Replace.NONE)
 @Rollback(false)
 public class UserRepositoryTest {
-
-	@Autowired
-	private UserRepository repo;
 	
 	@Autowired 
 	private ItemRepository itemRepo;
@@ -29,30 +26,6 @@ public class UserRepositoryTest {
 	@Autowired
 	private TestEntityManager entityManager;
 	
-	
-	@Test
-	public void createUser() {
-		User user=new User();
-		user.setEmail("romio@gmail.com");
-		user.setPassword("romio9040");
-		user.setFirstName("Romio");
-		user.setLastName("Sahoo");
-		
-		User savedUser=repo.save(user);
-		
-		User existUser=entityManager.find(User.class,savedUser.getId());
-		
-		assertThat(existUser.getEmail().equals(user.getEmail()));
-	}
-	
-	@Test
-	public void testFindUserByEmail() {
-		
-		String email="romio@gmail.com";
-		User user=repo.findByEmail(email);
-		
-		assertThat(user).isNotNull();
-	}
 	
 	@Test
 	public void createItem() {
