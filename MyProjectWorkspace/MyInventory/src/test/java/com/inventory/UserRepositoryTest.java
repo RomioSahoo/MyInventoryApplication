@@ -30,7 +30,6 @@ public class UserRepositoryTest {
 	@Test
 	public void createItem() {
 		Item item=new Item();
-		User user=new User();
 		item.setProduct("Notebook");
 		item.setPriority("P1");
 		item.setQuantity(1);
